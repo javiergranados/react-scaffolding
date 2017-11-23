@@ -1,0 +1,26 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Front-end from a arcgis feature",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch --colors",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "author": "Javier Granados",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "styled-components": "^2.2.3"
+  }
+}
