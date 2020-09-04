@@ -4,9 +4,10 @@
   "description": "React scaffolding project using webpack and styling with styled-components",
   "main": "index.js",
   "keywords": [
-    "dotfiles",
-    "settings",
-    "javascript"
+    "javascript",
+    "react",
+    "webpack",
+    "scaffolding"
   ],
   "author": "Javier Granados",
   "license": "MIT",
