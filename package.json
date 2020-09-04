@@ -1,14 +1,19 @@
 {
-  "name": "front-end",
-  "version": "1.0.0",
-  "description": "Front-end from a arcgis feature",
+  "name": "react scaffolding",
+  "version": "0.1.0",
+  "description": "React scaffolding project using webpack and styling with styled-components",
   "main": "index.js",
+  "keywords": [
+    "dotfiles",
+    "settings",
+    "javascript"
+  ],
+  "author": "Javier Granados",
+  "license": "MIT",
   "scripts": {
     "build": "webpack --watch --colors",
     "start": "webpack-dev-server --progress --colors"
   },
-  "author": "Javier Granados",
-  "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
